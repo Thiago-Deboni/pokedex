@@ -45,6 +45,7 @@ header .logo:hover,
 header .imagem-botao:hover,
 main .cartao-pokemon:hover{
     transform: scale(1.05);
+    background-color: #faa627;
     cursor: pointer;
 }
 
@@ -67,13 +68,14 @@ main .cartao-pokemon{
     align-items: center;
     gap: 15px;
     border-radius: 15px;
+    border: 1px solid #000000;
     transition: 0.2s ease-in-out;
 }
 
 main .cartao-pokemon .informacoes{
     display: flex;
     justify-content: space-between;
-    border: 1px solid #FFFF00;
+    border: 1px solid #000000;
     border-radius: 10px;
 }
 
